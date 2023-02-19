@@ -1,3 +1,5 @@
+# HostDiscovery Nmap Python Code
+
 import nmap
 
 # Prompt user for IP address or subnet to scan
