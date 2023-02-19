@@ -1,3 +1,5 @@
+# OS Detection Nmap Python Code
+
 import nmap
 
 # Prompt user for IP address to scan
