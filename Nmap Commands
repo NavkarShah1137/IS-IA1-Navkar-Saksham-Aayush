@@ -1,7 +1,22 @@
 Nmap Commands  
-
+  
 OS Detection Commands  
 -O (Enable OS detection)    
 --osscan-limit (Limit OS detection to promising targets)  
 --osscan-guess; --fuzzy (Guess OS detection results)  
---max-os-tries (Set the maximum number of OS detection tries against a target)  
+--max-os-tries (Set the maximum number of OS detection tries against a target) 
+  
+Host Discovery  
+-sL (List Scan) 
+-sn (No port scan)  
+-Pn (No ping)  
+-PS <port list> (TCP SYN Ping)  
+-PA <port list> (TCP ACK Ping)  
+-PU <port list> (UDP Ping)  
+-PY <port list> (SCTP INIT Ping)  
+-PE; -PP; -PM (ICMP Ping Types)  
+-PO <protocol list> (IP Protocol Ping)  
+--disable-arp-ping (No ARP or ND Ping)  
+--discovery-ignore-rst  
+--traceroute (Trace path to host)  
+
