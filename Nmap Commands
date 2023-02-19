@@ -1,0 +1,7 @@
+Nmap Commands  
+
+OS Detection Commands  
+-O (Enable OS detection)    
+--osscan-limit (Limit OS detection to promising targets)  
+--osscan-guess; --fuzzy (Guess OS detection results)  
+--max-os-tries (Set the maximum number of OS detection tries against a target)  
