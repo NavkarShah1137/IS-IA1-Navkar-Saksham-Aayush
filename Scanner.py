@@ -1,4 +1,7 @@
+# Nmap Scanner Python Code 
+# Root privileges are needed to run nmap on any OS. (You can use sudo command)
 
+# Import nmap Python Library
 import nmap
 
 scanner = nmap.PortScanner()
