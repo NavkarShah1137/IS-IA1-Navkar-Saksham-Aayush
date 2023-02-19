@@ -28,5 +28,26 @@ Version Detection
 --version-all (Try every single probe)  
 --version-trace (Trace version scan activity)  
 
+Port Scanning  
+-sS (TCP SYN scan)  
+-sT (TCP connect scan)  
+-sU (UDP scans)  
+-sY (SCTP INIT scan)  
+-sN; -sF; -sX (TCP NULL, FIN, and Xmas scans)  
+-sA (TCP ACK scan)  
+-sW (TCP Window scan)  
+-sM (TCP Maimon scan)  
+--scanflags (Custom TCP scan)  
+-sZ (SCTP COOKIE ECHO scan)  
+-sO (IP protocol scan)  
+-b <FTP relay host> (FTP bounce scan)  
+
+
+
+
+
+
+
+
 
 
