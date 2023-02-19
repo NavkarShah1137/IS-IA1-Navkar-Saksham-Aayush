@@ -6,9 +6,10 @@ IS IA1 Navkar , Saksham , Aayush
 **Student Roll Numbers :** 16010120189 , 16010120203 , 16010120204  
 **Name of Tool for Implementation :** Nmap (Network Mapper)  
 **Brief Information about the Tool :** Nmap is a network exploration tool and security scanner that is used to discover hosts and services on a computer network and to security audit the network.  
-**List of features / functionalities proposed to be implemented :** Host Discovery , Port Scanning , Version Detection , OS Detection , Network Mapping.  
-**Nmap Download Link: ** https://nmap.org/download.html.  
-**Python Nmap Library: ** pip install python-nmap.  
+**List of features / functionalities proposed to be implemented :** Host Discovery , Port Scanning , Version Detection , OS Detection , Network Mapping. 
+
+Nmap Download Link:  https://nmap.org/download.html.  
+Python Nmap Library:  pip install python-nmap.  
 
 Nmap (“Network Mapper”) is an open source tool for network exploration and security auditing. It was designed to rapidly scan large networks, although it works fine against single hosts. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. While Nmap is commonly used for security audits, many systems and network administrators find it useful for routine tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.  
 
