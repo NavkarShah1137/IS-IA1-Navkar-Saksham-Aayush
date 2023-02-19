@@ -20,3 +20,13 @@ Host Discovery
 --discovery-ignore-rst  
 --traceroute (Trace path to host)  
 
+Version Detection  
+-sV (Version detection)  
+--allports (Don't exclude any ports from version detection)  
+--version-intensity <intensity> (Set version scan intensity)  
+--version-light (Enable light mode)  
+--version-all (Try every single probe)  
+--version-trace (Trace version scan activity)  
+
+
+
